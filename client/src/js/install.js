@@ -13,9 +13,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
     }
 
     promptEvent.prompt();
-    
     window.deferredPrompt = null;
-    
     butInstall.classList.toggle('hidden', true);
   });
 
